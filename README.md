@@ -6,9 +6,9 @@ Tarefas:
 
 Infraestrutura:
 
-Setup do ambiente de desenvolvimento (Hardware, Software - Linux, Python, Docker, Curl, Pip, Git, Npm, etc...) 
+Setup do ambiente de desenvolvimento (Hardware, Software - Linux, Python, Docker, Curl, Pip, Git, Npm, etc...) X
 
-Setar as Permissoes do Gitpod ao Repositorio no Github 
+Setar as Permissoes do Gitpod ao Repositorio no Github  X
 
 Subir o Airbyte via docker 
 
