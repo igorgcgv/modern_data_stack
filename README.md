@@ -10,7 +10,16 @@ Setup do ambiente de desenvolvimento (Hardware, Software - Linux, Python, Docker
 
 Setar as Permissoes do Gitpod ao Repositorio no Github  X
 
-Subir o Airbyte via docker 
+Subir o Airbyte via docker X
+
+# clone Airbyte from GitHub
+git clone --depth=1 https://github.com/airbytehq/airbyte.git
+
+# switch into Airbyte directory
+cd airbyte
+
+# start Airbyte
+./run-ab-platform.sh
 
 Subir o Airflow via docker 
 
