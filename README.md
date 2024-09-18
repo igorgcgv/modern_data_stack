@@ -21,7 +21,17 @@ cd airbyte
 # start Airbyte
 ./run-ab-platform.sh
 
-Subir o Airflow via docker 
+Subir o Airflow via docker X
+
+curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.10.1/docker-compose.yaml'
+
+mkdir -p ./dags ./logs ./plugins ./config
+echo -e "AIRFLOW_UID=$(id -u)" > .env
+
+docker compose up airflow-init
+
+docker compose up
+
 
 Subir o Metabase via docker 
 
