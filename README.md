@@ -6,11 +6,11 @@ Tarefas:
 
 Infraestrutura:
 
-Setup do ambiente de desenvolvimento (Hardware, Software - Linux, Python, Docker, Curl, Pip, Git, Npm, etc...) X
+Setup do ambiente de desenvolvimento (Hardware, Software - Linux, Python, Docker, Curl, Pip, Git, Npm, etc...) {ok}
 
-Setar as Permissoes do Gitpod ao Repositorio no Github  X
+Setar as Permissoes do Gitpod ao Repositorio no Github  {ok}
 
-Subir o Airbyte via docker X
+Subir o Airbyte via docker {ok}
 
 # clone Airbyte from GitHub
 git clone --depth=1 https://github.com/airbytehq/airbyte.git
@@ -21,7 +21,7 @@ cd airbyte
 # start Airbyte
 ./run-ab-platform.sh
 
-Subir o Airflow via docker X
+Subir o Airflow via docker {ok}
 
 curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.10.1/docker-compose.yaml'
 
@@ -33,7 +33,7 @@ docker compose up airflow-init
 docker compose up
 
 
-Subir o Metabase via docker 
+Subir o Metabase via docker {ok}
 
 Criar o script de execução 
 
@@ -41,7 +41,7 @@ Testar a Execução
 
 Snowflake Data Warehouse:
 
-Criar a Conta no SnowFlake 
+Criar a Conta no SnowFlake {ok}
 Verificar a existência das tabelas 
 Obter os links de conexão e nome da conta 
 Extração:
