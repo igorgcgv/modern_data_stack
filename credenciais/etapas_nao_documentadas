@@ -7,4 +7,32 @@ Criando uma rede para os Containers se "comunicarem"
 1-Visualizar os network ja existente, comando : docker network ls
 2- Criar uma nova network: docker network create modern-data-stack
 3- Inspecionar os container que estão na rede: docker network inspect modern-data-stack
-4- Incluir os container's na rede modern-data-stack : docker conect modern-data-stack "nome_container"
+4- Incluir os container's na rede modern-data-stack : docker network connect modern-data-stack "nome_container"
+
+docker network connect modern-data-stack airbyte-cron
+docker network connect modern-data-stack airbyte-proxy
+docker network connect modern-data-stack airbyte-server
+docker network connect modern-data-stack airbyte-worker
+docker network connect modern-data-stack airbyte-bootloader
+docker network connect modern-data-stack airbyte-connector-builder-server
+docker network connect modern-data-stack airbyte-db
+docker network connect modern-data-stack init
+docker network connect modern-data-stack airbyte-temporal
+docker network connect modern-data-stack airbyte-webapp
+docker network connect modern-data-stack airbyte-docker-proxy-1
+
+
+docker network connect modern-data-stack airflow-airflow-scheduler-1
+docker network connect modern-data-stack airflow-airflow-webserver-1
+docker network connect modern-data-stack airflow-airflow-worker-1
+docker network connect modern-data-stack airflow-airflow-triggerer-1
+docker network connect modern-data-stack airflow-airflow-init-1
+docker network connect modern-data-stack airflow-postgres-1
+docker network connect modern-data-stack airflow-redis-1
+
+
+docker network connect modern-data-stack metabase-metabase-app-1
+docker network connect modern-data-stack my_postgres
+
+
+
