@@ -1,3 +1,10 @@
 Instalando o plug-in do Airbyte no container do Airflow
 1-Clique com o botão direito do mouse no container Websever > Attach Shell
 2- Digite o comando: pip install apache-airflow-providers-airbyte
+
+Criando uma rede para os Containers se "comunicarem"
+
+1-Visualizar os network ja existente, comando : docker network ls
+2- Criar uma nova network: docker network create modern-data-stack
+3- Inspecionar os container que estão na rede: docker network inspect modern-data-stack
+4- Incluir os container's na rede modern-data-stack : docker conect modern-data-stack "nome_container"
